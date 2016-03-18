@@ -33,9 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         if(fab!=null)
-        fab.setOnClickListener(v->
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show());
+        fab.setOnClickListener(v-> Snackbar.make(v, "Replace with your own action", Snackbar.LENGTH_LONG)
+                .setAction("Action", null).show());
     }
 
     @Override
